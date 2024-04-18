@@ -8,7 +8,7 @@ var http = require('http');
 http.createServer(function (req, res) {
   res.write('FILE MANAGEMENT SYSTEM ON AWS');
   res.end();
-}).listen(80);
+}).listen(22);
 
 
 const aws = require('aws-sdk');
